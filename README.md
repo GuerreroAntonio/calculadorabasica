@@ -8,10 +8,7 @@ Características
     Diseño visual básico y limpio
     Código fácil de entender y modificar
 
-Captura de pantalla
 
-(Agrega aquí una imagen de tu calculadora si lo deseas)
-Instalación y uso
 
     Clona este repositorio:
     bash
