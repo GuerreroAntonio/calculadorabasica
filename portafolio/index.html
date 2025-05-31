@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Basica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1>Calculadora Basica</h1> 
+  <!-- definimos los inputs para el ingreso de la informacion del usuario  -->
+  <h2>Por favor ingresa los numeros</h2>
+    <input type="text" id="onedata" placeholder="Tu primer numero: "> 
+    <input type="text" id="twodata" placeholder="Tu segundo  numero: ">
+    <br>
+    <!-- en este segmento le asiganmos la funciones a cada elemento para hacer la operacion solicitada -->
+    <h2>Selecciona la operacion que debes realizar </h2>
+    <button onclick="operar('sumar')">sumar</button>
+    <button onclick="operar('restar')">restar</button>
+    <button onclick="operar('multiplicar')">multiplicar</button>
+    <button onclick="operar('dividir')">dividir</button>
+    <button onclick="reset()">limpiar</button>
+    <br><br>
+
+    <h2>Resultado</h2>
+    <input type="text" id="result" placeholder= "Resultado" readonly>
+  
+  
+    
+    
+    
+    
+    <script src="operation.js"></script>
+</body>
+</html>
