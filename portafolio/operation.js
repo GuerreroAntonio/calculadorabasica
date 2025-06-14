@@ -5,7 +5,7 @@ function operar(operacion) {
   
   //  validar si los datos estan vacios 
   if ( onedata === "" || twodata === ""){
-    alert ("Por favor ingresa ambos numeros .");
+    alert ("Por favor ingresa tus valores .");
     resultadoInput.value = "";
     return;
   }
@@ -55,4 +55,19 @@ function reset() {
 
 
 
+//operaciones del reloj "DESDE AQUI EMPEZAMOS CON EL JS DE RELOJ"
 
+
+const hora = document.getElementById('hora');
+const min = document.getElementById('min');
+const sec = document.getElementById('sec');
+
+function actualizarHora (){
+  const fechaActual = new Date();
+  hora.textContent = String(fechaActual.getHours()).padStart(2, 0);
+  min.textContent = String(fechaActual.getMinutes()).padStart(2, 0);
+  sec.textContent = String(fechaActual.getSeconds()).padStart(2, 0);
+  
+}
+setInterval(actualizarHora, 1000);
+actualizarHora();

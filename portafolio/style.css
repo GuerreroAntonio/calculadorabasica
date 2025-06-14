@@ -1,23 +1,36 @@
 /* Estilos generales */
+
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
   background-color: #282c34;
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
   margin: 0;
+
 }
 
-h1 {
+a {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+  display: flex;
+}
+a:hover {
+  color: #21a1f1;
+}
+
+.h1 {
   color: #61dafb;
   font-family: 'Courier New', Courier, monospace;
   font-size: 3rem;
 }
 
-h2 {
+.h2 {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
@@ -26,30 +39,104 @@ h2 {
 input {
   border-radius: 2rem;
   box-shadow: 1rem;
-  text-align: center;
   border-style: hidden;
+  align-items: center;
+  justify-content: center;
   padding: 0.5rem;
   font-size: 1rem;
-  width: 10rem;
+  width: 15rem;
   background-color: #61dafb;
   color: #282c34;
   transition: background-color 1.7s ease;
+
 }
 button:active {
   background-color: #21a1f1;
 }
 button {
   border-radius: 2rem;
-  box-shadow: 2rem;
-  text-align: center;
+  box-shadow: 1rem;
   border-style: hidden;
+  align-items: center;
+  justify-content: center;
   padding: 0.5rem;
   font-size: 1rem;
-  width: 10rem;
+  width: 15rem;
   background-color: #61dafb;
   color: #282c34;
   transition: background-color 1.7s ease;
 }
+
+
+
+/* DESDE ESTA LINEA EMPEZAMOS CON EL CSS DE EL RELOJ DIGITAL*/
+
+/* Estilos del reloj digital */
+.reloj {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: lineal-gradient (135deg red, blue);
+  border: 10px solid  orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer ;
+  user-select: none;
+}
+.reloj p {
+  font-size: 25px;
+  gap: 4px;
+  margin-bottom: 10px;
+  margin: 0;
+}
+.footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
