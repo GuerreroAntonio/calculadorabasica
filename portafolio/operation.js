@@ -72,5 +72,6 @@ function actualizarHora (){
 setInterval(actualizarHora, 1000);
 actualizarHora();
 
+// Fin de las operaciones del reloj
 
 

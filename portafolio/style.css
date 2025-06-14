@@ -13,6 +13,15 @@ body {
 
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #20232a;
+}
+
 a {
   color: #61dafb;
   text-decoration: none;
@@ -101,54 +110,7 @@ button {
 .readmeText {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  justify-content: center;}
 /* Media queries para pantallas pequeñas */
 @media (max-width: 768px) {
   h1 {
